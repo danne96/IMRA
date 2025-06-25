@@ -1,0 +1,6 @@
+{
+    "radio_sheet_dir": "./radiosheets/",
+    "experiment_dir": "./experiments/",
+    "template_dir": "./templates/",
+    "default_output_dir": "."
+}
