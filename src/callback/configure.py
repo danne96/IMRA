@@ -29,6 +29,6 @@ def select_default_output_dir(win, app, initialdir, label: ttk.Label, max_width)
         label.config(text=shorten_path(new_dir, max_width=max_width))
 
 def save_configuration(win, app):
-    with open(".config.json", "w") as out:
+    with open("config.json", "w") as out:
         json.dump(app.config, out, indent=4)
     win.destroy()
